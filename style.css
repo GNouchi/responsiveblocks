@@ -1,0 +1,52 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ /* border: 1px solid black; */
+}
+div{
+    display: inline-block;
+}
+#wrapper{
+ width: 950px;
+ background-color: silver;
+ margin: 25px;
+ padding: 25px;
+ display: block;
+}
+    #header{
+     min-height: 150px;
+     background-color: green;
+     display: block;
+     margin-bottom: 25px;
+    }
+    #navigation{
+     min-height: 300px;
+     width: 200px;
+     background-color: blue;
+     vertical-align: top;
+    }
+    #main_content{
+     min-height: 400px;
+     width: 700px;
+     background-color: red;
+     padding: 10px;
+     vertical-align: top;
+     margin-left: 20px; /*achieves the same visual result but doesn't auto scale*/
+    }
+        .subcontents{
+         min-height: 200px;
+         width: 210px;
+         background-color: yellow;
+         margin-left: 10PX;
+         margin-bottom: 20px;
+         margin-top: 10px;
+        }
+        #advertisement{
+         min-height: 120px;
+         width: 660px;
+         background-color: purple;
+         margin-left: 10px;
+        }
+
+/*also not sure how nto get the page to hard stop on the right*/
