@@ -1,50 +1,81 @@
 /*CSS reset settings here*/
 *{
  margin: 0px;
- padding: 10px;
- /* background-color: black; */
+ padding: 0px;
 }
-#wrapper{
- width: 950px;
- background-color: silver;
- padding: 10px;
+.wrapper{
+  /* background-color: silver; */
+  margin:10px;
 }
-    #header{
-     min-height: 150px;
-     background-color: green;
-     margin: 10px 10px 10px 10px;
+    .col{
+        display: inline-block;
+        vertical-align: top ;
+        padding: 0px 0px 0px 0px;
+        width: 200px;
+        height: 150px;
     }
-    #navigation{
-        border: 1px solid black;
-     min-height: 300px;
-     width: 200px;
-     background-color: blue;
-     display: inline-block;
-     margin: 10px 10px 10px 10px;
-     padding: 0px;
+    .row{
     }
-    #main_content{
-         min-height: 400px;
-         width: 700px;
-         background-color: red;
-         vertical-align: top;
-         display: inline-block;
-         margin: 10px 0px 10px 10px;
-         padding: 0px;
-         padding-left: 10px;
+    .header{
+        background-color: green;
+        margin-bottom: 10px;
+        padding-left:20px;
     }
-        .subcontents{
-             min-height: 200px;
-             width: 210px;
-             background-color: yellow;
-             display: inline-block;
-             padding: 0px;
-             margin: 20px 0px 10px 10px;
+    .lg-1{
+        background-color: blue;
+    }
+    .main_content{
+        background-color: red;
+        height: 80%;
+        padding: 10px;
+    }
+    .subcontents{
+        background-color: yellow;
+        margin: 10px 10px 0px 0px;
+    }
+    .advertisement{
+        background-color: purple;
+        margin-top:10px;
+    }
+    @media only screen and (max-width: 480px){ /*mobile*/
+        .row{
+            width: 95%;
         }
-        #advertisement{
-         min-height: 120px;
-         width: 660px;
-         background-color: purple;
-         margin: 0px 0px 0px 10px;
-         padding: 0px 0px 0px 0px;
+        .sm-4{
+            width: 100%;
+        }
+        .sm-0{
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 481px){ /*tablet*/
+        .row{
+            width: 98%;
+        }
+        .med-4{
+            width: 100%;
+        }
+        .med-2{
+            width: 48%;
+        }
+        .med-0{
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 1024px){ /*tablet*/
+        .col{display: inline-block;}
+        .row{
+            width: 98%;
+        }
+        .lg-4{
+            width: 100%;
+        }
+        .lg-3{
+            width: 78%;
+        }
+        .lg-1{
+            width: 30%;
+        }
+        .navigation{
+            width: 20%;
         }
