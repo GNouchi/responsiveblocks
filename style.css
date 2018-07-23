@@ -1,52 +1,50 @@
 /*CSS reset settings here*/
 *{
  margin: 0px;
- padding: 0px;
- /* border: 1px solid black; */
-}
-div{
-    display: inline-block;
+ padding: 10px;
+ /* background-color: black; */
 }
 #wrapper{
  width: 950px;
  background-color: silver;
- margin: 25px;
- padding: 25px;
- display: block;
+ padding: 10px;
 }
     #header{
      min-height: 150px;
      background-color: green;
-     display: block;
-     margin-bottom: 25px;
+     margin: 10px 10px 10px 10px;
     }
     #navigation{
+        border: 1px solid black;
      min-height: 300px;
      width: 200px;
      background-color: blue;
-     vertical-align: top;
+     display: inline-block;
+     margin: 10px 10px 10px 10px;
+     padding: 0px;
     }
     #main_content{
-     min-height: 400px;
-     width: 700px;
-     background-color: red;
-     padding: 10px;
-     vertical-align: top;
-     margin-left: 20px; /*achieves the same visual result but doesn't auto scale*/
+         min-height: 400px;
+         width: 700px;
+         background-color: red;
+         vertical-align: top;
+         display: inline-block;
+         margin: 10px 0px 10px 10px;
+         padding: 0px;
+         padding-left: 10px;
     }
         .subcontents{
-         min-height: 200px;
-         width: 210px;
-         background-color: yellow;
-         margin-left: 10PX;
-         margin-bottom: 20px;
-         margin-top: 10px;
+             min-height: 200px;
+             width: 210px;
+             background-color: yellow;
+             display: inline-block;
+             padding: 0px;
+             margin: 20px 0px 10px 10px;
         }
         #advertisement{
          min-height: 120px;
          width: 660px;
          background-color: purple;
-         margin-left: 10px;
+         margin: 0px 0px 0px 10px;
+         padding: 0px 0px 0px 0px;
         }
-
-/*also not sure how nto get the page to hard stop on the right*/
